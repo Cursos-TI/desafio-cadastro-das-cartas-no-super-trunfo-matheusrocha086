@@ -30,10 +30,10 @@ int main() {
     printf("Digite o PIB da Carta 1:");
     scanf("%f", &PIB1);
 
-    printf("Digite um ponto turistico da Carta 1: ");
+    printf("Digite a quantidade de pontos turisticos da Carta 1: ");
     scanf("%d", &pontoturistico1);
 
-    printf("\n   Preenchendo a Carta 2   \n");
+    printf("\n   Carta 2   \n");
 
     printf("Digite o nome do 2° estado que deseja: ");
     scanf("%s", &estado2);
@@ -53,11 +53,12 @@ int main() {
     printf("Digite o PIB da Carta 2:");
     scanf("%f", &PIB2);
 
-    printf("Digite um ponto turistico da Carta 2: ");
+    printf("Digite a quantidade de pontos turisticos da Carta 2: ");
     scanf("%d", &pontoturistico2);
 
-
-
+    printf("\n\n--- DADOS DAS CARTAS ---\n");
+    printf("- Carta 1 -\n");
+    printf("Seu estado é: %s\n");
 
 
 
