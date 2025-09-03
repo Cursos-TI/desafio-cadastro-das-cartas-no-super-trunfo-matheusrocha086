@@ -10,6 +10,8 @@ int main() {
     float PIB1, PIB2;
     int pontoturistico1, pontoturistico2;
 
+    // Dados da carta 1
+
     printf("    Carta 1    \n");
 
     printf("Digite o nome do 1° estado que deseja: ");
@@ -32,6 +34,8 @@ int main() {
 
     printf("Digite a quantidade de pontos turisticos da Carta 1: ");
     scanf("%d", &pontoturistico1);
+
+    // Dados da carta 2
 
     printf("\n   Carta 2   \n");
 
@@ -56,8 +60,10 @@ int main() {
     printf("Digite a quantidade de pontos turisticos da Carta 2: ");
     scanf("%d", &pontoturistico2);
 
+    // Impressão das cartas 1 e 2
+
     printf("\n\n--- DADOS DAS CARTAS ---\n");
-   printf("- Carta 1 -\n Seu Estado é: %s \n Seu código é: %s \n O nome da cidade é: %s \n A população é de: %d Habitantes \n A área é de: %.2f m² \n O PIB é de: R$%.2f \n Número de pontos turísticos é de: %d\n", estado1, codigocarta1, nomecidade1, populacao1, area1, PIB1, pontoturistico1); // Retorna a mensagem confirmando os dados da 1º carta
+    printf("- Carta 1 -\n Seu Estado é: %s \n Seu código é: %s \n O nome da cidade é: %s \n A população é de: %d Habitantes \n A área é de: %.2f m² \n O PIB é de: R$%.2f \n Número de pontos turísticos é de: %d\n", estado1, codigocarta1, nomecidade1, populacao1, area1, PIB1, pontoturistico1); // Retorna a mensagem confirmando os dados da 1º carta
     printf("\n- Carta 2 -\n Seu Estado é: %s \n Seu código é: %s \n O nome da cidade é: %s \n A população é de: %d Habitantes \n A área é de: %.2f m² \n O PIB é de: R$%.2f \n Número de pontos turísticos é de: %d\n", estado2, codigocarta2, nomecidade2, populacao2, area2, PIB2, pontoturistico2); // Retorna a mensagem confirmando os dados da 2º carta
 
 
