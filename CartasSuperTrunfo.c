@@ -16,14 +16,14 @@ int main() {
 
     printf("    Carta 1    \n");
 
-    printf("Digite o nome do 1° estado que deseja: ");
-    scanf("%s", &estado1);
+    printf("Digite o nome do 1° estado que deseja: "); // Variavel " %[^\n]" para usar espaçamentos em nomes compostos
+    scanf(" %[^\n]", &estado1);
 
     printf("Digite o código da Carta 1 (ex: A1, B2): ");
     scanf("%s", &codigocarta1);
 
     printf("Digite o nome da 1° Cidade: ");
-    scanf("%s", &nomecidade1);
+    scanf(" %[^\n]", &nomecidade1);
 
     printf("Digite população da Carta 1: ");
     scanf("%d", &populacao1);
@@ -45,14 +45,14 @@ int main() {
 
     printf("\n   Carta 2   \n");
 
-    printf("Digite o nome do 2° estado que deseja: ");
-    scanf("%s", &estado2);
+    printf("Digite o nome do 2° estado que deseja: "); // Variavel " %[^\n]" para usar espaçamentos em nomes compostos
+    scanf(" %[^\n]", &estado2);
 
     printf("Digite o código da Carta 2 (ex: A1, B2): ");
     scanf("%s", &codigocarta2);
 
     printf("Digite o nome da 2° Cidade: ");
-    scanf("%s", &nomecidade2);
+    scanf(" %[^\n]", &nomecidade2);
 
     printf("Digite população da Carta 2: ");
     scanf("%d", &populacao2);
